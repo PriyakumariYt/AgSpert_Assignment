@@ -5,7 +5,6 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 /* SaleOrderModal.css */
 .modal-container {
   background-color:var(--background-clr);

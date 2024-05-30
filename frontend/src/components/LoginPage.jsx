@@ -13,7 +13,7 @@ const [user, setUser] = useState({
     const handleInput = (e) => {
         e.preventDefault();
   if (user.name && user.email && user.password) {
-            console.log(user);
+            // console.log(user);
             setUser({
                 name: '',
                 email: '',
