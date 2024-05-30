@@ -1,0 +1,69 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background: var(--background-clr);
+}
+.dark-theme {
+  --heading: #69839b;
+  --paragraph-clr: #cfb7b7;
+  --btn-bg-clr: #58798d;
+  --btn-text-clr: #fff;
+  --background-clr: #111620;
+  --nav: white;
+}
+.light-theme {
+  --heading: #5f99be;
+  --paragraph-clr: #1a0909;
+  --btn-bg-clr: #111620;
+  --btn-text-clr: #fff;
+  --background-clr: #fff;
+  --nav: black;
+}
+/* SaleOrderModal.css */
+.modal-container {
+  background-color:var(--background-clr);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+/* NavigationBar.css */
+
+nav {
+  background-color: var(--background-clr);
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li button,
+nav ul li .chakra-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+nav ul li .chakra-button {
+  font-weight: bold;
+}
+
+
+
