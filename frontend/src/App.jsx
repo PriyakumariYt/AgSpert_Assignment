@@ -5,7 +5,7 @@ import Dashboard from './components/Dashboard';
 const App = () => {
     return (
         <Router>
-            <Routes>
+        <Routes>
          <Route path="/" element={<LoginPage />} />
           <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
