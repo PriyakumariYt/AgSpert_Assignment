@@ -5,25 +5,7 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
-body {
-  background: var(--background-clr);
-}
-.dark-theme {
-  --heading: #69839b;
-  --paragraph-clr: #cfb7b7;
-  --btn-bg-clr: #58798d;
-  --btn-text-clr: #fff;
-  --background-clr: #111620;
-  --nav: white;
-}
-.light-theme {
-  --heading: #5f99be;
-  --paragraph-clr: #1a0909;
-  --btn-bg-clr: #111620;
-  --btn-text-clr: #fff;
-  --background-clr: #fff;
-  --nav: black;
-}
+
 /* SaleOrderModal.css */
 .modal-container {
   background-color:var(--background-clr);
